@@ -1,22 +1,6 @@
 package app.turnity.auth.model
 
-import kotlinx.serialization.Serializable
 import java.util.UUID
-
-@Serializable
-data class UserResponse(
-    val id: String,
-    val email: String,
-    val firstName: String,
-    val lastName: String,
-    val phone: String?,
-    val profilePhoto: String?,
-    val googleId: String?,
-    val loginMethod: String,
-    val createdAt: String,
-    val updatedAt: String,
-    val preferredName: String?
-)
 
 data class User(
     val id: UUID,
