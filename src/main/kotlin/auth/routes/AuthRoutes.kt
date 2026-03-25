@@ -1,6 +1,5 @@
 package app.turnity.auth.routes
 
-import app.turnity.auth.model.AuthResponse
 import app.turnity.auth.model.LoginRequest
 import app.turnity.auth.model.RefreshTokenRequest
 import app.turnity.auth.model.RegisterRequest
